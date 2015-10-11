@@ -20,7 +20,6 @@ public class App
     	b.setAge(12);
     	b.setSport("letec");
     	
-    	System.err.println("letadlo");
         System.out.println( a.toString() );
         System.out.println( b.toString() );
         a.addAge();
