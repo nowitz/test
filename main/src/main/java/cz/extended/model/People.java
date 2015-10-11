@@ -7,6 +7,7 @@ public class People {
 	
 	private String tmpextended = "funguje to";
 	
+	
 	public String getName() {
 		return name;
 	}
