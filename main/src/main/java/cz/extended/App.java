@@ -38,5 +38,7 @@ public class App
         list.forEach(people -> System.out.println(people.toString()));
         List<Child> listChild = list.stream().filter(people -> people instanceof Child).map(people -> (Child)people).collect(Collectors.toList());
         System.out.println(listChild.size());
+
+        System.out.println("MASTER");
     }
 }
