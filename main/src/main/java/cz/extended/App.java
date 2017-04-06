@@ -32,7 +32,7 @@ public class App
         System.out.println( a.toString() );
         System.out.println( b.toString() );
 
-        System.out.println("honza");
+        System.out.println("datovka");
 
         List<People> list = Arrays.asList(a,b);
         list.forEach(people -> System.out.println(people.toString()));
